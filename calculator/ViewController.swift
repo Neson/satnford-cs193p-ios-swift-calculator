@@ -25,6 +25,7 @@ class ViewController: UIViewController {
         println("digit = \(digit)")
     }
     
+    var operandStack: Array<Double> = Array<Double>()
     @IBAction func enter() {
         userIsInTheMiddleOfTypingANumber = false
         
